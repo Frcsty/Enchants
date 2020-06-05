@@ -1,0 +1,85 @@
+
+
+settings:
+  base-command: enchants
+  alias:
+    - 'enchantments'
+    - 'enchant'
+
+
+messages:
+  usage-message: '&8[&9Enchants&8] &7Invalid Usage! &9/{command} {usage}'
+  unknown-command-message: '&8[&9Enchants&8] &7Unknown Command!'
+  player-only-message: '&8[&9Enchants&8] &7This command can not be used through console!'
+  no-permission-message: '&8[&9Enchants&8] &7You do not have the required permission!'
+  invalid-target-message: '&8[&9Enchants&8] &7Specified target is invalid!'
+  offline-target-message: '&8[&9Enchants&8] &7Specified target is offline!'
+  invalid-enchantment-message: '&8[&9Enchants&8] &7Selected enchantment is not valid!'
+  invalid-enchantment-level-message: '&8[&9Enchants&8] &7Selected enchantment level is not valid!'
+
+
+about-message:
+  - '&8[&9Enchants&8] • &fBuild&8: &9{build}'
+  - ''
+  - ' &9• &7Author&8: &fFrosty'
+  - ' &9• &7Commands'
+  - '  &9» &7Base Command&8: &9/enchants'
+  - '   &9• &7Alias&8: &9enchant&8, &9enchantments'
+  - ''
+  - '  &9» &7Arguments'
+  - '   &9• &7reload &8- &7reloads plugin configuration'
+  - '   &9• &7give <target> <enchantment> [level]'
+  - ''
+  - ' &7&nTip&8: &f&6<> &fRequired&8, &8[] &fOptional'
+  - ''
+
+level-formatting:
+  - '1;I'
+  - '2;II'
+  - '3;III'
+  - '4;IV'
+  - '5;V'
+  - '6;VI'
+  - '7;VII'
+  - '8;VIII'
+  - '9;IX'
+  - '10;X'
+
+# Enchantments
+# - DURABILITY (ID: 34)
+
+# Custom Enchantments
+# - NIGHT_VISION (ID: 101) - Max Level 1 (Applicable to Helmets)
+# - STRENGTH (ID: 102) - Max Level 2 (Applicable to Chestplates)
+
+enchantments:
+  durability:
+    material: 'ENCHANTED_BOOK'
+    display-name: '&8[&9Enchant&8] &fDurability {level}'
+    lore:
+      - ''
+      - ' &8• &fRarity&8: &7Common'
+      - ' &8• &7Drag-Drop to apply!'
+      - ''
+    enchant: 34
+    max-level: 5
+  night_vision:
+    material: 'ENCHANTED_BOOK'
+    display-name: '&8[&9Enchant&8] &fNight Vision {level}'
+    lore:
+      - ''
+      - ' &8• &fRarity&8: &7Common'
+      - ' &8• &7Drag-Drop to apply!'
+      - ''
+    enchant: 101
+    max-level: 1
+  strength:
+    material: 'ENCHANTED_BOOK'
+    display-name: '&8[&9Enchant&8] &fStrength {level}'
+    lore:
+      - ''
+      - ' &8• &fRarity&8: &7Rare'
+      - ' &8• &7Drag-Drop to apply!'
+      - ''
+    enchant: 102
+    max-level: 2

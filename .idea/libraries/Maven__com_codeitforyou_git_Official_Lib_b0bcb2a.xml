@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.codeitforyou.git.Official:Lib:b0bcb2a">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/codeitforyou/git/Official/Lib/b0bcb2a/Lib-b0bcb2a.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/codeitforyou/git/Official/Lib/b0bcb2a/Lib-b0bcb2a-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/codeitforyou/git/Official/Lib/b0bcb2a/Lib-b0bcb2a-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

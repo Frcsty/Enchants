@@ -1,0 +1,9 @@
+name: Enchants
+version: ${project.version}
+main: me.frosty.enchants.Enchants
+
+permissions:
+  enchants.give:
+    description: Grants access to '/enchants give' command
+    default: op
+
